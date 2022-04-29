@@ -29,3 +29,5 @@ import 'zone.js';
 // import 'intl';
 
 // NgClass on SVG elements
+
+(window as any)['global'] = window;
